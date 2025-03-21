@@ -179,35 +179,35 @@ a:hover {
 
 @font-face {
   font-family: "Gilroy";
-  src: url(/fonts/Gilroy-Bold.woff) format("woff");
+  src: url(fonts/Gilroy-Bold.woff) format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url(/fonts/Gilroy-Medium.woff) format("woff");
+  src: url(fonts/Gilroy-Medium.woff) format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url(/fonts/Gilroy-Regular.woff) format("woff");
+  src: url(fonts/Gilroy-Regular.woff) format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Inter";
-  src: url(/fonts/Inter-Regular.woff2) format("woff2");
+  src: url(fonts/Inter-Regular.woff2) format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Inter";
-  src: url(/fonts/Inter-SemiBold.woff2) format("woff2");
+  src: url(fonts/Inter-SemiBold.woff2) format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -215,7 +215,7 @@ a:hover {
 .header {
   padding-top: 40px;
   background-color: var(--footer-color);
-  background-image: url(/img/header-bg.jpg);
+  background-image: url(img/header-bg.jpg);
   background-size: cover;
   aspect-ratio: 1440/1084;
   color: var(--white-color);
@@ -223,7 +223,7 @@ a:hover {
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .header {
-    background-image: url(/img/header-bg@2x.jpg);
+    background-image: url(img/header-bg@2x.jpg);
   }
 }
 .header__nav {
@@ -402,10 +402,10 @@ a:hover {
   padding-top: 12px;
   width: 112px;
   height: 56px;
-  background-image: url(./../../img/icons/tooltip.svg);
+  background-image: url(../../img/icons/tooltip.svg);
 }
 :checked + .header__tooltip-fake {
-  background-image: url(/img/icons/checkbox.svg);
+  background-image: url(img/icons/checkbox.svg);
   background-position: center center;
 }
 .header__tooltip-fake {
@@ -520,7 +520,7 @@ a:hover {
   font-size: 14px;
 }
 .arrow-link::after {
-  content: url(./../img/icons/arrow-right.svg);
+  content: url(../img/icons/arrow-right.svg);
   height: 24px;
 }
 .arrow-link:hover {
@@ -749,4 +749,4 @@ a:hover {
   gap: 40px;
 }
 
-/*# sourceMappingURL=main.css.map */
+*# sourceMappingURL=main.css.map *
