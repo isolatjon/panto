@@ -1,0 +1,13 @@
+@use './base/reset'; //точку надо ставить иначе капут
+@use './base/globals';
+@use './base/vars';
+@use './base/fonts';
+
+@use './blocks/header';
+@use './blocks/benefits';
+@use './blocks/arrow-link';
+@use './blocks/products';
+@use './blocks/card';
+@use './blocks/slider';
+@use './blocks/footer';
+

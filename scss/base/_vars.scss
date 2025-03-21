@@ -1,0 +1,33 @@
+:root {
+    --transition-duration: 0.3s;
+
+    --text-color: #1E1E1E;
+    --white-color: #fff;
+    --accent-color: #E58411;
+
+    --background-color: #F7F7F7;
+
+    --star-color: #F6973F;
+    --fade-star-color: #f6b86f;
+    --card-light-gray: #8D8D8D;
+    --card-dark-blue: #0D1B39;
+
+    --ui-cyan: #00D6C9;
+    --ui-gray: #7C7C7C;
+
+    --footer-color: #2D2F33;
+    --footer-text-color: rgb(255, 255, 255, 0.8);
+
+    --font-base: 'Gilroy', sans-serif;
+    --font-card: 'Inter', sans-serif;
+}
+
+@mixin retina-bg ($image) {
+    @media 
+        (-webkit-min-device-pixel-ratio: 2), 
+        (min-resolution: 192dpi) { 
+            background-image: $image;
+        }
+
+
+}
